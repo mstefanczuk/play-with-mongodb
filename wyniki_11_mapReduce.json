@@ -1,0 +1,30 @@
+MongoDB shell version v4.0.10
+connecting to: mongodb://127.0.0.1:27017/nbd?gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("8fddd4db-ad21-4c0f-a8b3-413271f6a9f2") }
+MongoDB server version: 4.0.10
+{
+	"results" : [
+		{
+			"_id" : "Female",
+			"value" : {
+				"avgWeight" : 70.1133157360407,
+				"avgHeight" : 166.81260913705597
+			}
+		},
+		{
+			"_id" : "Male",
+			"value" : {
+				"avgWeight" : 70.01304058146582,
+				"avgHeight" : 166.7384938421161
+			}
+		}
+	],
+	"timeMillis" : 108,
+	"counts" : {
+		"input" : 9878,
+		"emit" : 9878,
+		"reduce" : 198,
+		"output" : 2
+	},
+	"ok" : 1
+}
